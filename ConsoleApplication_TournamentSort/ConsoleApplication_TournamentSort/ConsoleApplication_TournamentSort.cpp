@@ -8,7 +8,7 @@
 int main()
 {
     setlocale(LC_ALL, "ru");
-    int arr[] = { 7, 38, 89, INT_MAX, 165, 56, -2, INT_MIN, -31, 648, 5125, 5126  };
+    int arr[] = { 7, 38, 89, 5, 165, 56, -2, 1, -31, 648, 5125, 5126  };
     //int arr[] = { 12, 6 };
     int arrLength = 12;
 
