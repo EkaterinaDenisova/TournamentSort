@@ -43,7 +43,7 @@ void tournamentSort(int arr[], int arrLength)
     for (int i = treeSize - 1; i >= 1; i--) {
         // родителю присваивается наименьшее из его потомков
         tree[i] = min(tree[2 * i], tree[2 * i + 1]);
-    } cout << endl;
+    } //cout << endl;
 
 
     // вывод массива
