@@ -4,7 +4,7 @@
 #include <iostream>
 #include "TournamentSort.h"
 
-
+//
 int main()
 {
     setlocale(LC_ALL, "ru");
