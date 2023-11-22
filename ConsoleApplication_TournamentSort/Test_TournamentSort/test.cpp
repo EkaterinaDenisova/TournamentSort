@@ -1,12 +1,12 @@
 #include "pch.h"
 #include "vector"
 #include "../ConsoleApplication_TournamentSort/TournamentSort.h"
-//@author Денисова Екатерина
+//@author Р”РµРЅРёСЃРѕРІР° Р•РєР°С‚РµСЂРёРЅР°
 
-// тестирование функции турнирной сортировки
+// С‚РµСЃС‚РёСЂРѕРІР°РЅРёРµ С„СѓРЅРєС†РёРё С‚СѓСЂРЅРёСЂРЅРѕР№ СЃРѕСЂС‚РёСЂРѕРІРєРё
 TEST(TestSort, TestTournamentSort) {
 
-	// массив из двух элементов
+	// РјР°СЃСЃРёРІ РёР· РґРІСѓС… СЌР»РµРјРµРЅС‚РѕРІ
 	int arr[] = { 1, 12 };
 	int arrLength = 2;
 
@@ -21,7 +21,7 @@ TEST(TestSort, TestTournamentSort) {
 	v.clear(); v1.clear();
   
 
-	// массив из одного элемента
+	// РјР°СЃСЃРёРІ РёР· РѕРґРЅРѕРіРѕ СЌР»РµРјРµРЅС‚Р°
 	int arr1[] = { -2 };
 	arrLength = 1;
 
@@ -35,7 +35,7 @@ TEST(TestSort, TestTournamentSort) {
 	v.clear(); v1.clear();
 
 
-	// пустой массив
+	// РїСѓСЃС‚РѕР№ РјР°СЃСЃРёРІ
 	int* arr2 = nullptr;
 	arrLength = 0;
 
@@ -49,7 +49,7 @@ TEST(TestSort, TestTournamentSort) {
 	EXPECT_EQ(v, v1);
 	v.clear(); v1.clear();
 
-	// массив со значениями max_int и min_int
+	// РјР°СЃСЃРёРІ СЃРѕ Р·РЅР°С‡РµРЅРёСЏРјРё max_int Рё min_int
 	int arr3[] = {7, 38, 89, INT_MAX, 165, 56, -2, INT_MIN, -31, 648, 5125, 5126};
 	arrLength = 12;
 
