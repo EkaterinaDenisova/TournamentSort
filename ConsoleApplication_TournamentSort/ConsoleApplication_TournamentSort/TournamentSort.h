@@ -7,6 +7,7 @@
 using namespace std;
 
 // турнирная сортировка массива
+// по возрастанию
 void tournamentSort(int arr[], int arrLength)
 {
     // Определение размера дерева для турнирной сортировки
@@ -15,6 +16,7 @@ void tournamentSort(int arr[], int arrLength)
     while (treeSize <= arrLength) {
         treeSize *= 2;
     }
+    // вместо цикла использовать логарифм
 
     // создание динамического массива размерностью, равной количеству узлов в дереве * 2
     int size = (2 * treeSize);
